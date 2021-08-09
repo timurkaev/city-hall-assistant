@@ -51,12 +51,11 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function Login() {
-  const classes = useStyles();
-
-  const dispatch = useDispatch();
-
   const error = useSelector((state) => state.auth.error);
   const loading = useSelector((state) => state.auth.loadingLogin);
+
+  const classes = useStyles();
+  const dispatch = useDispatch();
 
   const [login, setLogin] = useState('');
   const [password, setPassword] = useState('');

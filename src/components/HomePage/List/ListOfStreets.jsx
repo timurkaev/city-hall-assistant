@@ -44,10 +44,10 @@ const useStyle = makeStyles(() => ({
 function ListOfStreets() {
   const list = useSelector((state) => state.application.items);
 
-  const { id } = useParams();
-
   const dispatch = useDispatch();
   const history = useHistory();
+  const { id } = useParams();
+
   useEffect(() => {
     dispatch(loadingAppeals());
     dispatch(loadingAppraisals());
