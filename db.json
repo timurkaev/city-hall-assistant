@@ -25,7 +25,7 @@
       "token": "j06e4g721b99111dcj4aaig4c9"
     },
     {
-      "roles": "Администратор",
+      "roles": "Пользователь",
       "login": "Akhmad",
       "password": "Akhmad",
       "firstName": "Ахьмад",
@@ -37,7 +37,7 @@
       "id": 3
     },
     {
-      "roles": "Администратор",
+      "roles": "Пользователь",
       "firstName": "Альви",
       "lastName": "Цугаев",
       "email": "tsugaev@mail.ru",

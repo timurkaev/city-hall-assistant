@@ -130,6 +130,7 @@ function Login() {
                 }
               />
             </FormControl>
+            <Alert severity="info"><b>Login</b>:admin, <b>password</b>:1234</Alert>
             {error && <Alert severity="error">Неверный логин или пароль</Alert>}
             <Button
               type="submit"
